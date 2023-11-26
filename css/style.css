@@ -25,6 +25,13 @@ ul {
   list-style: none;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .main-container {
   width: 100%;
   max-width: 1440px;

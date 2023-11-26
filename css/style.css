@@ -16,11 +16,13 @@
 body {
   display: flex;
   justify-content: center;
+  margin: 0;
 }
 
 .main-container {
   width: 100%;
   max-width: 1440px;
+  min-width: 320px;
   padding: 0 50px;
   box-sizing: border-box;
 }

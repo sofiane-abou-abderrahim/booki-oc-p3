@@ -199,5 +199,41 @@ img {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-  /* ... */
+  .main-container {
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 10rem;
+    /* align-items: stretch; */
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .nav-list {
+    margin-bottom: 0;
+  }
+
+  .nav-list__items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    border-bottom: 2px solid var(--main-bg-color);
+    padding-bottom: 2rem;
+  }
+
+  .nav-list__items:hover {
+    border-bottom: 2px solid var(--main-color);
+  }
+
+  .nav-list__links:hover {
+    border-top: none;
+    padding-top: 0;
+  }
 }

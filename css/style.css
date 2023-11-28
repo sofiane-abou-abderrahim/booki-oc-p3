@@ -69,6 +69,24 @@ img {
   padding-top: 14px;
 }
 
+/***** Search Form *****/
+.search__form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search__form--map-icon {
+  color: #000;
+  border: 1px solid var(--main-bg-color);
+}
+
+.search__form--search-icon {
+  display: none;
+}
+
+/***** End Search Form *****/
+
 .section-title {
   margin: 0;
   font-size: 22px;

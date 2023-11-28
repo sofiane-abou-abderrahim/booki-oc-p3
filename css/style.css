@@ -38,7 +38,7 @@ a {
   text-decoration: none;
 }
 
-/* HEADER */
+/***** Header *****/
 
 header {
   height: 79px;
@@ -203,12 +203,13 @@ img {
     padding: 0;
   }
 
+  /***** Header *****/
+
   header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 10rem;
-    /* align-items: stretch; */
   }
 
   nav {

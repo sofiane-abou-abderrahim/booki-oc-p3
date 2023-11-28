@@ -78,7 +78,10 @@ img {
 
 .search__form--map-icon {
   color: #000;
-  border: 1px solid var(--main-bg-color);
+  background: var(--main-bg-color);
+  padding: 0.9375rem 1.125rem;
+  border-radius: 0.9375rem 0 0 0.9375rem;
+  font-size: 1.125rem;
 }
 
 .search__form--search-icon {

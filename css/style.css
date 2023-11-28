@@ -85,7 +85,7 @@ img {
   font-size: 1.125rem;
 }
 
-.search__form--input {
+.search__form--text-input {
   padding: 0.9375rem;
   border: 1px solid var(--main-bg-color);
   color: #000;

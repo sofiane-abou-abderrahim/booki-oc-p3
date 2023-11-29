@@ -70,11 +70,15 @@ img {
 }
 
 /***** Search Form *****/
+.search__text {
+  margin-bottom: 2.5rem;
+}
+
 .search__form {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 1.5625rem;
+  margin-bottom: 2.5rem;
 }
 
 .search__form--map-icon {

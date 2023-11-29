@@ -157,7 +157,7 @@ img {
   display: none;
 }
 
-/***** Filters *****/
+/***** Filter *****/
 
 .filter {
   display: flex;
@@ -195,7 +195,7 @@ img {
   font-size: 1.375rem;
 }
 
-/***** End Filters *****/
+/***** End Filter *****/
 
 .section-title {
   margin: 0;
@@ -293,6 +293,15 @@ img {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+  /***** Filter *****/
+
+  .filter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 1.125rem;
+  }
+
   .hebergements-and-populaires {
     flex-direction: column;
   }

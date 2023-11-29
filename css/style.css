@@ -407,4 +407,13 @@ img {
   .search__form--button-text {
     display: none;
   }
+
+  /***** Filter *****/
+
+  .filter__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.125rem;
+  }
 }

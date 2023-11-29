@@ -35,26 +35,31 @@
         </nav>
       </header>
       <main>
-        <section class="search">
-          <div class="search__text">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre-ville ou en pleine nature</p>
-          </div>
-          <div class="search__form">
-            <i class="fas fa-map-marker-alt search__form--map-icon"></i>
-            <form action="">
-              <input
-                type="text"
-                placeholder="Marseille, France"
-                class="search__form--text-input"
-              />
-              <button class="search__form--button">
-                <p class="search-form__search-text">Rechercher</p>
-                <i class="fas fa-search search__form--search-icon"></i>
-              </button>
-            </form>
-          </div>
-        </section>
+        <div class="search-and-filter">
+          <section class="search">
+            <div class="search__text">
+              <h1 class="search__text--title">
+                Trouvez votre hébergement pour des vacances de rêve
+              </h1>
+              <p>En plein centre-ville ou en pleine nature</p>
+            </div>
+            <div class="search__form">
+              <form action="" method="get" class="search__form--form">
+                <i class="fas fa-map-marker-alt search__form--map-icon"></i>
+                <input
+                  type="text"
+                  name="text"
+                  placeholder="Marseille, France"
+                  class="search__form--text-input"
+                />
+                <button class="search__form--button">
+                  <p class="search__form--button-text">Rechercher</p>
+                  <i class="fas fa-search search__form--button-icon"></i>
+                </button>
+              </form>
+            </div>
+          </section>
+        </div>
         <div class="hebergements-and-populaires">
           <section class="hebergements"></section>
           <section class="populaires">

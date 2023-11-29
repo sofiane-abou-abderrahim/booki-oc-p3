@@ -183,7 +183,7 @@ img {
   column-gap: 1.125rem;
   border: 2px solid #d9d9d9;
   border-radius: 25px;
-  padding: 12px 18px;
+  padding: 0.75rem 1.125rem;
   cursor: pointer;
 }
 
@@ -346,7 +346,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 10rem;
+    height: 8rem;
   }
 
   nav {
@@ -379,7 +379,7 @@ img {
   /***** Search Form *****/
 
   .search-and-filter {
-    padding: 0 30px;
+    padding: 0 1.875rem 2.5rem 1.875rem;
   }
 
   .search__form--form {
@@ -415,5 +415,18 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 1.125rem;
+    width: 100%;
+  }
+
+  .filter__item {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .filter__item--title {
+    font-size: 0.75rem;
+  }
+
+  .filter__item--icon {
+    font-size: 0.75rem;
   }
 }

@@ -93,6 +93,21 @@ img {
   margin-right: -0.4375rem;
 }
 
+.search__form--text-input:focus {
+  outline: none;
+}
+
+.search__form--text-input::placeholder {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.search__form--text-input:focus::placeholder {
+  color: transparent;
+}
+
 .search__form--button {
   background: var(--main-color);
   color: var(--main-bg-color);

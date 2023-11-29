@@ -21,6 +21,7 @@ html {
 body,
 h1,
 h2,
+h3,
 p {
   margin: 0;
 }
@@ -51,6 +52,10 @@ a {
 h1,
 h2 {
   font-size: 1.375rem;
+}
+
+h3 {
+  font-size: 1.0625rem;
 }
 
 /***** Header *****/

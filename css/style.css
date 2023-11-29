@@ -159,6 +159,11 @@ img {
 
 /***** Filters *****/
 
+.filters {
+  display: flex;
+  flex-direction: row;
+}
+
 .filters__title {
   font-size: 1.125rem;
 }

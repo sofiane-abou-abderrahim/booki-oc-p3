@@ -6,7 +6,7 @@
   --filter-bg-color: #deebff;
 }
 
-.fas {
+.fa-solid {
   color: var(--main-color);
 }
 
@@ -152,7 +152,13 @@ img {
   display: none;
 }
 
-/***** End Search Form *****/
+/***** Filters *****/
+
+.filters__title {
+  font-size: 1.125rem;
+}
+
+/***** End Filters *****/
 
 .section-title {
   margin: 0;

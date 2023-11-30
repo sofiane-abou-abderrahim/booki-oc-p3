@@ -381,6 +381,21 @@ img {
   padding: 1rem;
 }
 
+/***** Footer *****/
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f2f2;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin: 1.25rem;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/

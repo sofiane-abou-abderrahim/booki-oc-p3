@@ -357,6 +357,7 @@ img {
 .activites-cards {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   column-gap: 1.875rem;
 }
 

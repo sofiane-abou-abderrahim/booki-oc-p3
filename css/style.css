@@ -22,6 +22,7 @@ body,
 h1,
 h2,
 h3,
+h4,
 p {
   margin: 0;
 }
@@ -56,6 +57,10 @@ h2 {
 
 h3 {
   font-size: 1.0625rem;
+}
+
+h4 {
+  font-size: 0.9375rem;
 }
 
 /***** Header *****/
@@ -347,7 +352,7 @@ img {
 /***** Acitvites *****/
 
 .activites {
-  padding: 3rem 1.875rem;
+  padding: 5rem 1.875rem;
 }
 
 .activites h2 {
@@ -379,6 +384,33 @@ img {
 
 .activites-card h3 {
   padding: 1rem;
+}
+
+/***** Footer *****/
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f2f2;
+  padding: 1.875rem;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+
+.footer__container__title {
+  margin-bottom: 0.9375rem;
+}
+
+.footer__container__items {
+  margin-bottom: 0.5rem;
+}
+
+.footer__container__item {
+  margin-bottom: 0.625rem;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -624,5 +656,21 @@ img {
 
   .activites-card img {
     height: 10rem;
+  }
+
+  /***** Footer *****/
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .footer__container {
+    width: 100%;
+  }
+
+  .footer__container__items {
+    margin-bottom: 1.5rem;
   }
 }

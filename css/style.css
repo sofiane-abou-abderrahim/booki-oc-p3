@@ -344,6 +344,43 @@ img {
   margin-bottom: 0.3125rem;
 }
 
+/***** Acitvites *****/
+
+.activites {
+  padding: 3rem 1.875rem;
+}
+
+.activites h2 {
+  margin-bottom: 1.875rem;
+}
+
+.activites-cards {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.875rem;
+}
+
+.activites-cards a {
+  width: 21%;
+}
+
+.activites-card {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  height: 100%;
+}
+
+.activites-card img {
+  width: 100%;
+  height: 23.75rem;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.activites-card h3 {
+  padding: 1rem;
+}
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
@@ -401,6 +438,16 @@ img {
 
   .populaires-cards .card-subtitle {
     font-size: 0.8125rem;
+  }
+
+  /***** Activites *****/
+
+  .activites-card img {
+    height: 12.5rem;
+  }
+
+  .activites-card h3 {
+    font-size: 0.875rem;
   }
 }
 
@@ -557,5 +604,25 @@ img {
 
   .populaires-cards .card {
     margin-top: 1.25rem;
+  }
+
+  /***** Activites *****/
+
+  .activites {
+    padding: 2.5rem 1.875rem;
+  }
+
+  .activites-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+
+  .activites-cards a {
+    width: 100%;
+  }
+
+  .activites-card img {
+    height: 10rem;
   }
 }

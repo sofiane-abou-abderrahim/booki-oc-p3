@@ -213,6 +213,7 @@ img {
 }
 
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
   display: flex;
   justify-content: space-between;
@@ -225,12 +226,75 @@ img {
   box-sizing: border-box;
 }
 
+.card {
+  background-color: white;
+  border-radius: 20px;
+  padding: 0.3125rem;
+  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.euro {
+  font-weight: 700;
+}
+
+.neutral-star {
+  color: var(--main-bg-color);
+}
+
 /****** Hebergements ***********/
+
 .hebergements {
   width: 65%;
 }
 
+.hebergements-cards {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1.875rem;
+}
+
+.hebergements-cards a {
+  width: 31%;
+}
+
+.hebergements-cards .card {
+  margin-top: 2.0625rem;
+}
+
+.hebergements-cards img {
+  width: 100%;
+  height: 7.75rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
+  padding-left: 0.9375rem;
+}
+
+.hebergements-cards .card-title {
+  margin: 0.625rem 0;
+}
+
+.hebergements-cards .card-subtitle,
+.hebergements-cards .card-rating {
+  margin-bottom: 0.3125rem;
+}
+
+.card-subtitle span {
+  font-weight: bold;
+}
+
 /****** Populaires ***********/
+
 .populaires {
   width: 32%;
 }
@@ -239,11 +303,6 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.section-title {
-  /* margin: 0;
-  font-size: 22px; */
 }
 
 .populaires-cards .card {
@@ -256,17 +315,6 @@ img {
   height: 8.5rem;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
-}
-
-.card {
-  background-color: white;
-  border-radius: 20px;
-  padding: 0.3125rem;
-  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-}
-
-.card img {
-  object-fit: cover;
 }
 
 .populaires-cards .card-content {
@@ -283,24 +331,12 @@ img {
   margin-bottom: 0.25rem;
 }
 
-.card-title {
-  font-size: 1rem;
-}
-
 .populaires-cards .card-subtitle {
   margin: 0;
 }
 
 .populaires-cards .card-rating {
   margin-bottom: 0.3125rem;
-}
-
-.euro {
-  font-weight: 700;
-}
-
-.neutral-star {
-  color: var(--main-bg-color);
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */

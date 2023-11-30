@@ -217,6 +217,11 @@ img {
   border-radius: 50%;
 }
 
+.info--text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 /****** Hebergements And Populaires ***********/
 
 .hebergements-and-populaires {

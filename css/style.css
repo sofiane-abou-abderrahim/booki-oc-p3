@@ -357,11 +357,11 @@ img {
 .activites-cards {
   display: flex;
   flex-direction: row;
-  column-gap: 1.875rem;
+  justify-content: space-between;
 }
 
 .activites-cards a {
-  width: 21%;
+  width: 23%;
 }
 
 .activites-card {
